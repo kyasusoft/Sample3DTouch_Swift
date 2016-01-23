@@ -41,6 +41,21 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
     }
 
+// MARK:- 3D Touch ショートカットアイテムから起動した時に呼ばれるdelegete
 
+    func application(application: UIApplication, performActionForShortcutItem shortcutItem: UIApplicationShortcutItem, completionHandler: (Bool) -> Void) {
+        
+        if shortcutItem.type == "com.kyasusoft.kiritan" {
+            // きりたんのノーティフィケーションをポストする
+            let n = NSNotification(name: "goKiritan", object: self)
+            NSNotificationCenter.defaultCenter().postNotification(n)
+        } else {
+            // イタコ姉さんのノーティフィケーションのポストする
+            let n = NSNotification(name: "goItako", object: self)
+            NSNotificationCenter.defaultCenter().postNotification(n)
+        }
+        
+        completionHandler(true)
+    }
 }
 

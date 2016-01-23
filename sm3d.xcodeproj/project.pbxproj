@@ -8,20 +8,32 @@
 
 /* Begin PBXBuildFile section */
 		41D8C0DC1C53A1FA0004BFDD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41D8C0DB1C53A1FA0004BFDD /* AppDelegate.swift */; };
-		41D8C0DE1C53A1FA0004BFDD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41D8C0DD1C53A1FA0004BFDD /* ViewController.swift */; };
 		41D8C0E11C53A1FA0004BFDD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41D8C0DF1C53A1FA0004BFDD /* Main.storyboard */; };
 		41D8C0E31C53A1FA0004BFDD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 41D8C0E21C53A1FA0004BFDD /* Assets.xcassets */; };
 		41D8C0E61C53A1FA0004BFDD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41D8C0E41C53A1FA0004BFDD /* LaunchScreen.storyboard */; };
+		41D8C0EE1C53A5740004BFDD /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41D8C0ED1C53A5740004BFDD /* TabBarController.swift */; };
+		41D8C0F21C53A7890004BFDD /* kiritan_tou.png in Resources */ = {isa = PBXBuildFile; fileRef = 41D8C0EF1C53A7890004BFDD /* kiritan_tou.png */; };
+		41D8C0F31C53A7890004BFDD /* zzm_a1zunko21.png in Resources */ = {isa = PBXBuildFile; fileRef = 41D8C0F01C53A7890004BFDD /* zzm_a1zunko21.png */; };
+		41D8C0F41C53A7890004BFDD /* zzm_itako_standup.png in Resources */ = {isa = PBXBuildFile; fileRef = 41D8C0F11C53A7890004BFDD /* zzm_itako_standup.png */; };
+		41D8C0F81C53A8770004BFDD /* KiritanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41D8C0F71C53A8770004BFDD /* KiritanViewController.swift */; };
+		41D8C0FA1C53A9350004BFDD /* ItakoTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41D8C0F91C53A9350004BFDD /* ItakoTableViewController.swift */; };
+		41D8C0FC1C53A9AA0004BFDD /* Itako1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41D8C0FB1C53A9AA0004BFDD /* Itako1ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		41D8C0D81C53A1FA0004BFDD /* sm3d.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = sm3d.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		41D8C0DB1C53A1FA0004BFDD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		41D8C0DD1C53A1FA0004BFDD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		41D8C0E01C53A1FA0004BFDD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		41D8C0E21C53A1FA0004BFDD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		41D8C0E51C53A1FA0004BFDD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		41D8C0E71C53A1FA0004BFDD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		41D8C0ED1C53A5740004BFDD /* TabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		41D8C0EF1C53A7890004BFDD /* kiritan_tou.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = kiritan_tou.png; path = image/kiritan_tou.png; sourceTree = "<group>"; };
+		41D8C0F01C53A7890004BFDD /* zzm_a1zunko21.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = zzm_a1zunko21.png; path = image/zzm_a1zunko21.png; sourceTree = "<group>"; };
+		41D8C0F11C53A7890004BFDD /* zzm_itako_standup.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = zzm_itako_standup.png; path = image/zzm_itako_standup.png; sourceTree = "<group>"; };
+		41D8C0F71C53A8770004BFDD /* KiritanViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KiritanViewController.swift; sourceTree = "<group>"; };
+		41D8C0F91C53A9350004BFDD /* ItakoTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ItakoTableViewController.swift; path = ../ItakoTableViewController.swift; sourceTree = "<group>"; };
+		41D8C0FB1C53A9AA0004BFDD /* Itako1ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Itako1ViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +66,28 @@
 		41D8C0DA1C53A1FA0004BFDD /* sm3d */ = {
 			isa = PBXGroup;
 			children = (
-				41D8C0DB1C53A1FA0004BFDD /* AppDelegate.swift */,
-				41D8C0DD1C53A1FA0004BFDD /* ViewController.swift */,
 				41D8C0DF1C53A1FA0004BFDD /* Main.storyboard */,
+				41D8C0DB1C53A1FA0004BFDD /* AppDelegate.swift */,
+				41D8C0ED1C53A5740004BFDD /* TabBarController.swift */,
+				41D8C0F71C53A8770004BFDD /* KiritanViewController.swift */,
+				41D8C0F91C53A9350004BFDD /* ItakoTableViewController.swift */,
+				41D8C0FB1C53A9AA0004BFDD /* Itako1ViewController.swift */,
 				41D8C0E21C53A1FA0004BFDD /* Assets.xcassets */,
 				41D8C0E41C53A1FA0004BFDD /* LaunchScreen.storyboard */,
 				41D8C0E71C53A1FA0004BFDD /* Info.plist */,
+				41D8C0FD1C53AB620004BFDD /* image */,
 			);
 			path = sm3d;
+			sourceTree = "<group>";
+		};
+		41D8C0FD1C53AB620004BFDD /* image */ = {
+			isa = PBXGroup;
+			children = (
+				41D8C0EF1C53A7890004BFDD /* kiritan_tou.png */,
+				41D8C0F01C53A7890004BFDD /* zzm_a1zunko21.png */,
+				41D8C0F11C53A7890004BFDD /* zzm_itako_standup.png */,
+			);
+			name = image;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,6 +151,9 @@
 				41D8C0E61C53A1FA0004BFDD /* LaunchScreen.storyboard in Resources */,
 				41D8C0E31C53A1FA0004BFDD /* Assets.xcassets in Resources */,
 				41D8C0E11C53A1FA0004BFDD /* Main.storyboard in Resources */,
+				41D8C0F21C53A7890004BFDD /* kiritan_tou.png in Resources */,
+				41D8C0F41C53A7890004BFDD /* zzm_itako_standup.png in Resources */,
+				41D8C0F31C53A7890004BFDD /* zzm_a1zunko21.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,8 +164,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				41D8C0DE1C53A1FA0004BFDD /* ViewController.swift in Sources */,
+				41D8C0EE1C53A5740004BFDD /* TabBarController.swift in Sources */,
 				41D8C0DC1C53A1FA0004BFDD /* AppDelegate.swift in Sources */,
+				41D8C0F81C53A8770004BFDD /* KiritanViewController.swift in Sources */,
+				41D8C0FC1C53A9AA0004BFDD /* Itako1ViewController.swift in Sources */,
+				41D8C0FA1C53A9350004BFDD /* ItakoTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,6 +316,7 @@
 				41D8C0EC1C53A1FA0004BFDD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
