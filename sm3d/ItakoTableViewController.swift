@@ -51,11 +51,14 @@ class ItakoTableViewController: UITableViewController, UIViewControllerPreviewin
 
     // 3D Touch pop（pop先のViewControllerに遷移する）
     func previewingContext(previewingContext: UIViewControllerPreviewing, commitViewController viewControllerToCommit: UIViewController) {
+
+        self.navigationController?.pushViewController(viewControllerToCommit, animated:true)
+        
         // イタコ１かイタコ２の詳細画面に遷移する
-        if previewingContext.sourceView == cell0 {
-            performSegueWithIdentifier("showView0", sender:nil)
-        } else {
-            performSegueWithIdentifier("showView1", sender:nil)
-        }
+//        if previewingContext.sourceView == cell0 {
+//            performSegueWithIdentifier("showView0", sender:nil)
+//        } else {
+//            performSegueWithIdentifier("showView1", sender:nil)
+//        }
     }
 }
