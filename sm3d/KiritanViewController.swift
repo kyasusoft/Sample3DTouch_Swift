@@ -11,6 +11,8 @@ import UIKit
 class KiritanViewController: UIViewController {
 
     @IBOutlet weak var kiritanImageView: UIImageView!
+    @IBOutlet weak var forceLabel: UILabel!
+    @IBOutlet weak var maxLabel: UILabel!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -32,6 +34,9 @@ class KiritanViewController: UIViewController {
                 let max   = touches.first?.maximumPossibleForce
                 // 押した時に透明度を下げる
                 kiritanImageView.alpha = 1.0 - force! / max!
+                
+                maxLabel.text   = String(format:"%0.2f", max!)
+                forceLabel.text = String(format:"%0.2f", force!)
             }
         }
     }
